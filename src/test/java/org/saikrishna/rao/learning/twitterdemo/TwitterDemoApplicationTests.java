@@ -15,7 +15,7 @@ class TwitterDemoApplicationTests {
 
     @Test
     void contextLoads() throws InterruptedException {
-        twitterClient.getTweets();
+        twitterClient.getTweets("AR Rahaman");
         //Thread.sleep(10000);
     }
 
