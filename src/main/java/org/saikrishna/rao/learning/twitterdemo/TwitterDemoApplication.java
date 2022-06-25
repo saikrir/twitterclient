@@ -24,7 +24,7 @@ public class TwitterDemoApplication implements CommandLineRunner {
     @Override
     @SneakyThrows
     public void run(String... args) throws Exception {
-        twitterClient.getTweets("Chernobyl")
+        twitterClient.getTweets("Johnny Depp")
                 .subscribeOn(Schedulers.boundedElastic())
                 .subscribe(twitterResponseSubscriber);
 

@@ -1,1 +1,3 @@
 rootProject.name = 'twitter-demo'
+include 'social-avro'
+
